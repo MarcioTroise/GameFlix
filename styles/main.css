@@ -1,0 +1,188 @@
+:root {
+    --verde: rgb(28, 247, 145);
+    --preta: #0e1027;
+    --borda: #f2925a;
+}
+
+* { /*todo documento q esta sendo reendernizado*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preta);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.7)100%),url(../img/fundo.png) center;  
+}
+
+header .container {
+    display: flex;
+    /*align-items: center fixed;*/
+    justify-content: space-between;
+    padding-right: 0;
+}
+
+h2.logo {
+    margin-right: 6px;
+}
+
+header .logo a {
+    color: var(--verde);
+    font-family: 'Arial Black', Times;
+    font-size: 42px;
+    margin-left: 0;
+    padding-left: 0;
+    letter-spacing: 3px;  
+    text-decoration: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 15px;
+    padding-right: 0;
+}
+
+header nav a:hover {
+    color: #FFF;
+    border-bottom: solid 1px #FFF;
+    transition: .5s;
+}
+
+/* Game Principal*/
+.jogo-principal {
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)100%), url(/img/nw2.png) no-repeat 50%;
+
+    font-size: 17px;
+    height: 312px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.jogo-principal .descricao {
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+.jogo-principal .titulo {
+    font-size: 50px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+
+.botoes a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.botao {
+    background-color: rgba(28, 247, 145, 0.5);
+    color: white;
+    font-family: Arial, sans-serif;
+    border: none;
+
+    margin-top: 10px;
+    padding: 15px 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+.botao i {
+    margin-right: 3px;
+}
+.botao:hover, .botao:hover a{
+    background-color: var(--verde,0);
+    color: black;
+}
+
+.container {
+    padding: 10px;
+    align-items: center ;  
+}
+
+.jogo-principal .container {
+    width: 75%;
+}
+
+.box-games {
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
+.pesquisa #input {
+    display: block;
+    border-radius: 25px;
+    border-style: none;
+    width: 43%;
+    padding: 8px;
+    outline: 0;
+    margin: auto auto 8px auto;
+}
+.pesquisa  #input:hover {
+   border-bottom: solid 2px red;
+}
+
+.seta {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    margin: 50px auto auto 72%;
+}
+
+.estilo-games {
+    margin: 30px auto 20px 0;
+    color: white;
+    text-shadow: 3px 3px 10px var(--borda);
+}
+
+img.seta {
+    margin-top: -44px;
+
+}
+
+.container p {
+    text-align: justify;
+}
+
+#midias ul {
+    position: absolute;
+    max-width: 400px;
+    margin: -2px 0 0 10px;
+}
+#midias li {
+    padding-left: 10px;
+    display: inline-block;  
+    float: none;
+} 
+#midias img {
+    width: 25px;
+    height: 24px;
+    border: black solid 1px;
+    border-radius: 50%;   
+    box-shadow: black 5px 5px 7px;  
+}
+
+p.footer {
+    margin-bottom: 20px;
+}
+
+.rodape {
+    padding: 7px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    font-size: 11pt;   
+    background-color: rgba(255, 255, 255, 0.877);
+}

@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+    h2.logo {
+        margin-bottom: 6px;
+    }
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header nav a {
+        margin-right: 5px;
+    }
+
+
+    .jogo-principal {
+        margin: 0 auto;
+        padding: 5px auto 8px auto;
+    }
+
+    .jogo-principal h3.titulo {
+        font-size: 37px;
+    }
+
+    .jogo-principal p {
+        font-size: 14px;
+    }
+
+    .botao {
+        width: 240px;
+        height: 39px;
+        margin-bottom: 4px;
+        max-height: 90%;
+    }
+     
+    .rodape h3 {
+        margin-left: 170px;
+    }
+}
