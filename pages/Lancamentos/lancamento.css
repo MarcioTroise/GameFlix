@@ -1,3 +1,6 @@
+@import '../../styles/main.css';
+@import '../../styles/responsivos.css';
+
 .jogo-principal {
     background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)100%), url(/img/nw2.png) no-repeat 50%;
 
