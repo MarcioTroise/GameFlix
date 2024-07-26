@@ -1,4 +1,3 @@
-// Ajuste do carrosel
 var owl = $('.owl-carousel');
 owl.owlCarousel({
     items:4,
@@ -7,6 +6,9 @@ owl.owlCarousel({
     responsive: {
         0:{
             items:1
+        },
+        380:{
+            items:2
         },
         600:{
             items:3
@@ -31,4 +33,3 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 });
-//FIM ajuste carrosel

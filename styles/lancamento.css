@@ -1,0 +1,12 @@
+.jogo-principal {
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)100%), url(/img/nw2.png) no-repeat 50%;
+
+    font-size: 17px;
+    height: 412px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
