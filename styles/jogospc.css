@@ -1,0 +1,43 @@
+.games {   
+    width: 100%;
+    height: 100%;
+    margin-left: 10px; 
+    border: 1px solid var(--borda);
+    box-shadow: 0 1px 15px -5px yellow;
+    object-fit: cover;
+}
+    
+.games:hover {
+    zoom: 1.5;
+}
+
+.nome-jogo {
+    color: var(--borda);
+    font: 20px normal;
+    text-shadow: 1px 2px 6px  yellow;
+    line-height: 24px;
+}
+
+.estilo-games {
+    display: block;
+    margin-left: 25px;
+    font-size: 25px;
+    max-width: 80%;
+}
+
+.item {
+    width: 200px;
+    height: 240px; 
+    display: inline-block;
+    box-sizing: content-box;
+    margin: auto auto 20px 15px;
+}
+
+.item p {
+    margin-left: 22px;
+    color: rgb(219, 219, 219);
+}
+
+.moba-game {
+    margin-bottom: 15px;
+}
