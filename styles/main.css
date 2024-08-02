@@ -149,22 +149,32 @@ header nav a:hover {
    outline: 2px solid  red;
 }
 
+.description-games {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
 .seta {
-    position: absolute;
-    width: 30px;
+    width: 25px;
     height: 20px;
-    margin: 50px auto auto 72%;
+}
+
+.text-games, .title-games {
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+}
+
+.title-games {
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .estilo-games {
-    margin: 0 auto;
+    margin: 0;
     color: white;
     text-shadow: 3px 3px 10px var(--borda);
-}
-
-img.seta {
-    margin-top: -44px;
-
 }
 
 .container p {
@@ -188,10 +198,6 @@ img.seta {
     border: black solid 1px;
     border-radius: 50%;   
     box-shadow: black 5px 5px 7px;  
-}
-
-p.footer {
-    margin-bottom: 20px;
 }
 
 .rodape {
