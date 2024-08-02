@@ -4,4 +4,4 @@ Um site onde o usuário pode ver lançamento de jogos, jogos para desktop (compu
 
 ** Site em construção (70%)
 
-<img src="site-image.PNG" width="200" height="280" />
+<img src="site-image.PNG" width="70%" height="100%" />
