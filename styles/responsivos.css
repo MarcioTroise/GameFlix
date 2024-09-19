@@ -22,10 +22,6 @@
         color: white !important;
     }
 
-    .pesquisa #input {
-        width: 80%;
-    }
-
     .jogo-principal, .pesquisa #input {
         margin: 0 auto;
     }
