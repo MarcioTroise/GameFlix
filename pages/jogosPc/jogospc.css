@@ -1,13 +1,13 @@
 @import '../../styles/main.css';
 @import '../../styles/responsivos.css';
 
-
 .jogos-pc {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
-    max-width: 900px;
+    padding: 20px 40px 50px;
+    max-width: 1200px;
     width: 100%;
 }
 
